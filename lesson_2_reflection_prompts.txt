@@ -3,14 +3,20 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+   seems that it holds the last change before a commit.
+   so when you commit, you pick the original from stage and the lat change from working directory,
+   as well as the stage get the last change for the next commit
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+   As you modified the source, you can add this to the commmit...
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	it allows me to change the project and make experiments, without change the main comit
 How do the diagrams help you visualize the branch structure?
+	it allows to understand all the branches on my project as well as help me to track diferent works on the project
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
